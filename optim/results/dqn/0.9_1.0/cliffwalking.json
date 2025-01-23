@@ -1,0 +1,20 @@
+{
+    "seed": 21,
+    "agent": {
+        "type": "dqn",
+        "parameter": {
+            "alpha": 0.001,
+            "epsilon": 0.35,
+            "gamma": 0.95
+        }
+    },
+    "environment": {
+        "type": "cliffwalking",
+        "parameter": {
+            "iterations": 1500,
+            "encoding_type": "one_hot",
+            "det_prob_state": 1.0,
+            "det_prob_action": 0.9
+        }
+    }
+}

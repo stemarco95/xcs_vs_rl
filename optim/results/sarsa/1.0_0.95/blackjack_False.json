@@ -1,0 +1,19 @@
+{
+    "seed": 21,
+    "agent": {
+        "type": "sarsa",
+        "parameter": {
+            "alpha": 0.033,
+            "epsilon": 0.2,
+            "gamma": 0.85
+        }
+    },
+    "environment": {
+        "type": "blackjack",
+        "parameter": {
+            "iterations": 750,
+            "natural": false,
+            "det_prob_state": 0.95
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "seed": 21,
+    "agent": {
+        "type": "xcs",
+        "parameter": {
+            "beta": 0.1,
+            "e0": 0.02,
+            "pop_size": 704,
+            "epsilon": 0.3,
+            "gamma": 0.85
+        }
+    },
+    "environment": {
+        "type": "blackjack",
+        "parameter": {
+            "iterations": 400,
+            "encoding_type": "gray_code",
+            "natural": true,
+            "det_prob_state": 1.0
+        }
+    }
+}

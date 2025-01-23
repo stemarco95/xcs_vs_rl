@@ -1,0 +1,19 @@
+{
+    "seed": 21,
+    "agent": {
+        "type": "q_learning",
+        "parameter": {
+            "alpha": 0.005,
+            "epsilon": 0.25,
+            "gamma": 0.9
+        }
+    },
+    "environment": {
+        "type": "blackjack",
+        "parameter": {
+            "iterations": 1500,
+            "natural": false,
+            "det_prob_state": 0.9
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "seed": 21,
+    "agent": {
+        "type": "dqn",
+        "parameter": {
+            "alpha": 0.0001,
+            "epsilon": 0.35,
+            "gamma": 0.95
+        }
+    },
+    "environment": {
+        "type": "frozenlake",
+        "parameter": {
+            "iterations": 5000,
+            "desc_size": 8,
+            "encoding_type": "one_hot",
+            "det_prob_state": 0.9,
+            "det_prob_action": 0.9
+        }
+    }
+}

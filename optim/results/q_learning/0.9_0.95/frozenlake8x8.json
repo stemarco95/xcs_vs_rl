@@ -1,0 +1,21 @@
+{
+    "seed": 21,
+    "agent": {
+        "type": "q_learning",
+        "parameter": {
+            "alpha": 0.01,
+            "epsilon": 0.2,
+            "gamma": 0.85
+        }
+    },
+    "environment": {
+        "type": "frozenlake",
+        "parameter": {
+            "iterations": 3000,
+            "desc_size": 8,
+            "encoding_type": "one_hot",
+            "det_prob_state": 0.95,
+            "det_prob_action": 0.9
+        }
+    }
+}

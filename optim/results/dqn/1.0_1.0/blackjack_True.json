@@ -1,0 +1,19 @@
+{
+    "seed": 21,
+    "agent": {
+        "type": "dqn",
+        "parameter": {
+            "alpha": 0.0005,
+            "epsilon": 0.3,
+            "gamma": 0.99
+        }
+    },
+    "environment": {
+        "type": "blackjack",
+        "parameter": {
+            "iterations": 400,
+            "natural": true,
+            "det_prob_state": 1.0
+        }
+    }
+}

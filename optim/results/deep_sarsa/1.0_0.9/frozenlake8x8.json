@@ -1,0 +1,21 @@
+{
+    "seed": 21,
+    "agent": {
+        "type": "deep_sarsa",
+        "parameter": {
+            "alpha": 0.001,
+            "epsilon": 0.25,
+            "gamma": 0.95
+        }
+    },
+    "environment": {
+        "type": "frozenlake",
+        "parameter": {
+            "iterations": 1500,
+            "desc_size": 8,
+            "encoding_type": "one_hot",
+            "det_prob_state": 0.9,
+            "det_prob_action": 1.0
+        }
+    }
+}

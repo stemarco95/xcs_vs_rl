@@ -1,0 +1,23 @@
+{
+    "seed": 21,
+    "agent": {
+        "type": "xcs",
+        "parameter": {
+            "beta": 0.3,
+            "e0": 0.001,
+            "pop_size": 1000,
+            "epsilon": 0.3,
+            "gamma": 0.95
+        }
+    },
+    "environment": {
+        "type": "frozenlake",
+        "parameter": {
+            "iterations": 1500,
+            "desc_size": 4,
+            "encoding_type": "gray_code",
+            "det_prob_state": 0.9,
+            "det_prob_action": 1.0
+        }
+    }
+}

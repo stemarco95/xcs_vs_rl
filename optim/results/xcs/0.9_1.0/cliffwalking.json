@@ -1,0 +1,22 @@
+{
+    "seed": 21,
+    "agent": {
+        "type": "xcs",
+        "parameter": {
+            "beta": 0.1,
+            "e0": 0.1,
+            "pop_size": 2000,
+            "epsilon": 0.3,
+            "gamma": 0.95
+        }
+    },
+    "environment": {
+        "type": "cliffwalking",
+        "parameter": {
+            "iterations": 1500,
+            "encoding_type": "gray_code",
+            "det_prob_state": 1.0,
+            "det_prob_action": 0.9
+        }
+    }
+}
